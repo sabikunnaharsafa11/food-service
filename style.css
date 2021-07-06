@@ -1,0 +1,127 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0%;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.size-font {
+  font-size: 40px;
+}
+
+.colour-s {
+  color: tomato;
+}
+
+.flexible-container {
+  padding-left: 7%;
+  padding-right: 7%;
+  display: flex;
+  bottom: 100px;
+  align-items: center;
+}
+
+.half-width {
+  width: 50%;
+  height: 600px;
+  position: relative;
+}
+
+.half-width img {
+  width: 100%;
+}
+
+.half-width p {
+  margin-bottom: 50px;
+}
+
+.full-dev {
+  align-items: top;
+  padding-left: 7%;
+  padding-right: 7%;
+  display: flex;
+  bottom: 100px;
+}
+
+.full-dev img {
+  width: 80%;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(to right, red, tomato);
+  box-shadow: 5px 5px 20px tomato;
+  padding: 15px 30px;
+  color: azure;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 180px;
+}
+
+.safa-f {
+  margin-bottom: 15px;
+}
+
+.food-sense {
+  background-image: url(images/shapes/7.png);
+}
+
+.my-recipies {
+  text-align: center;
+  color: #070505;
+  padding-top: 35px;
+  text-align: center;
+}
+.image-soto img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.experience-item {
+  text-align: left;
+  width: 30%;
+  margin: 2%;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.363);
+}
+
+.media-box {
+  border: 5px solid rgb(238, 231, 231);
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  height: 250px;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 7px 7px rgb(189, 184, 184);
+}
+
+.media-box1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.sense-s {
+  color: tomato;
+}
+
+.bottom-container {
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+}
+
+.bottom-container h1 {
+  color: white;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.bottom-container p {
+  color: white;
+  margin-top: 10px;
+}
