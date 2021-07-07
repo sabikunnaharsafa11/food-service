@@ -47,7 +47,6 @@ h2 {
   box-shadow: 5px 5px 20px tomato;
   padding: 15px 30px;
   margin-top: 10px;
-
   color: azure;
   font-weight: 500;
   font-size: 18px;
@@ -72,8 +71,8 @@ h2 {
   text-align: left;
   width: 30%;
   margin: 2%;
-  padding: 20px;
-  border-radius: 30px;
+  padding: 40px;
+  border-radius: 20px;
   box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.363);
 }
 
@@ -83,7 +82,29 @@ h2 {
 
 .experience-item img {
   width: 100%;
-  border-radius: 30px;
+  border-radius: 40px;
+}
+
+.news-letter {
+  text-align: center;
+}
+
+.news-letter1 {
+  margin-top: 50px;
+  background-image: url(images/shapes/download.jpg);
+}
+
+.news-letter1 h2 {
+  color: white;
+}
+
+.inter-you {
+  text-decoration: none;
+  background-color: rgb(87, 75, 75);
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
 }
 
 .media-box {
