@@ -4,10 +4,10 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
-.size-font {
+h2 {
   font-size: 40px;
 }
 
@@ -19,32 +19,45 @@ h1 {
   padding-left: 7%;
   padding-right: 7%;
   display: flex;
-  bottom: 100px;
+  margin-bottom: 100px;
   align-items: center;
 }
 
 .half-width {
   width: 50%;
-  height: 600px;
+  margin-top: 40px;
   position: relative;
 }
 
 .half-width img {
-  width: 85%;
+  width: 90%;
 }
 
 .half-width p {
   margin-bottom: 50px;
 }
 
-.img2 {
-  width: 180%;
-  bottom: 0;
-  position: absolute;
+.food-sense {
+  background-image: url(images/shapes/7.png);
 }
 
-.text-position {
-  margin-top: 10%;
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(to right, red, tomato);
+  box-shadow: 5px 5px 20px tomato;
+  padding: 15px 30px;
+  margin-top: 10px;
+
+  color: azure;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 180px;
+}
+
+.my-recipies {
+  text-align: center;
+  color: #070505;
+  text-align: center;
 }
 
 .full-dev {
@@ -55,52 +68,28 @@ h1 {
   bottom: 100px;
 }
 
-.full-dev img {
-  width: 80%;
-}
-.link-button {
-  text-decoration: none;
-  background-image: linear-gradient(to right, red, tomato);
-  box-shadow: 5px 5px 20px tomato;
-  padding: 15px 30px;
-  color: azure;
-  font-weight: 500;
-  font-size: 18px;
-  border-radius: 180px;
-}
-
-.safa-f {
-  margin-bottom: 15px;
-}
-
-.food-sense {
-  background-image: url(images/shapes/7.png);
-}
-
-.my-recipies {
-  text-align: center;
-  color: #070505;
-  padding-top: 35px;
-  text-align: center;
-}
-.image-soto img {
-  width: 100%;
-  border-radius: 20px;
-}
-
 .experience-item {
   text-align: left;
   width: 30%;
   margin: 2%;
   padding: 20px;
   border-radius: 30px;
-  box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.363);
+  box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.363);
+}
+
+.experience-item h2 {
+  font-size: 30px;
+}
+
+.experience-item img {
+  width: 100%;
+  border-radius: 30px;
 }
 
 .media-box {
   text-align: center;
   padding: 20px;
-  margin-top: 5%;
+  margin-top: 7%;
   margin-bottom: 5%;
   border-radius: 20px;
   width: auto;
@@ -116,10 +105,6 @@ h1 {
   margin-right: 5%;
 }
 
-.sense-s {
-  color: tomato;
-}
-
 .bottom-container {
   background-color: black;
   text-align: center;
@@ -128,7 +113,7 @@ h1 {
 
 .bottom-container h1 {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   margin: 20px;
 }
 
